@@ -32,7 +32,7 @@ jobs:
 
   build:
     name: Build VPX Light Mapper
-    runs-on: windows-2019
+    runs-on: windows-2025
     needs: [ version ]
     strategy:
       fail-fast: false
