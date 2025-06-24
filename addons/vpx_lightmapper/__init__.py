@@ -70,7 +70,7 @@ dependencies = (
     # Pillow image processing lib: https://pillow.readthedocs.io/en/stable/
     vlm_dependencies.Dependency(module="PIL", package="Pillow", name="Pillow"),
     # Win32 native lib: https://github.com/mhammond/pywin32
-    vlm_dependencies.Dependency(module="pywin32", package="None", name=None),
+    vlm_dependencies.Dependency(module="win32crypt", package="pywin32", name=None),
 )
 dependencies_installed = vlm_dependencies.import_dependencies(dependencies)
 if dependencies_installed:
